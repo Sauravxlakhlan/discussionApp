@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discussion app</title>
+  <link rel="stylesheet" href="discssion.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1><b>Discussion Portal</b></h1>
+  </nav>
+
+  <div class="container">
+    <div class="left-pane">
+      <div class="top">
+        <button id="new-question-btn" class="question">New Question Form</button>
+        <input type="text" id="search" placeholder="Search here..." />
+      </div>
+      <div id="question-list"></div>
+    </div>
+
+    <div class="right-pane" id="right-pane">
+      <br><br><br>
+      <h1 class="welcome"></h1>
+      <h1><b>Welcome to the Discussion Portal!</b></h1>
+      <h5><b>Enter a subject and question to get started</b></h5>
+      <input type="text" id="sub1" placeholder="Subject..." />
+      <textarea name="question" id="question" cols="30" rows="10" placeholder="Question"></textarea>
+      <button id="submit-new-question" class="btn">Submit</button>
+    </div>
+  </div>
+
+  <script src="discssion.js"></script>
+</body>
+</html>
